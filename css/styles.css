@@ -1,32 +1,129 @@
 .body {
-  font-family: 'Raleway', sans-serif;
+  background: #e5e5e5;
+  color: #212121;
   font-family: 'Roboto', sans-serif;
 }
-.link {
+/* header */
+.logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+/* body */
 .section {
+}
+.title-page-section {
+  background: #2f303a;
+}
+.title-page {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section-title {
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .features {
 }
 .features-item {
 }
 .features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 .features-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .works {
 }
 .works-item {
 }
 .works-image {
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
 }
 .team {
 }
 .team-item {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background: #ffffff;
 }
 .team-image {
+  width: 270px;
+  height: 260px;
+  left: 215px;
+  top: 1635px;
+  background: url(4853.jpg);
+  border-radius: 0px;
 }
 .team-title {
+  width: 109px;
+  height: 19px;
+  left: 596px;
+  top: 1925px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .team-text {
+  width: 76px;
+  height: 19px;
+  left: 912px;
+  top: 1954px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }

@@ -17,7 +17,6 @@ body {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.03em;
 }
 
 /* -----------------------------header---------------------------*/
@@ -31,6 +30,7 @@ body {
   line-height: 1.19;
   color: var(--logo-color);
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo-blue {
   color: var(--accent-color);
@@ -70,6 +70,7 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .button {
   background-color: var(--button-bg-color);
@@ -112,12 +113,14 @@ button:focus {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .features-text {
-  font-weight: 400;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
+
 /* ---------------------works--------------------------------- */
 
 .works {
@@ -127,6 +130,7 @@ button:focus {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .works-list {
@@ -143,6 +147,7 @@ button:focus {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .team-list {
@@ -155,12 +160,13 @@ button:focus {
   font-size: 16px;
   line-height: 1.19;
   font-weight: 500;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .team-text {
   font-size: 16px;
   line-height: 1.19;
-  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 /* -----------------------footer----------------------------- */
 
@@ -174,6 +180,7 @@ button:focus {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .address-link {
@@ -183,6 +190,9 @@ button:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--address-link-color);
+}
+.link-white {
+  color: #ffffff;
 }
 /* --------------------------projects----------------------------------- */
 
@@ -197,6 +207,7 @@ button:focus {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
   color: var(--title-text-color);
 }
 .menu-list-item:hover,
@@ -217,8 +228,8 @@ button:focus {
   color: var(--title-text-color);
 }
 .projects-text {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
